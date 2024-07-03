@@ -8,6 +8,7 @@ import videoIcon from "../../assets/icons/Group (1).png"
 const CareSection = () => {
     return (
         <section className="my-10 ">
+            
             <div className="grid grid-cols-5 gap-5">
                 {/* Left Div */}
                 <div className="w-[216px] h-[312px] bg-white pt-5 pl-5 pr-12 rounded-3xl">
