@@ -40,15 +40,15 @@ const Nav = () => {
 
         {/* Desktop Links */}
         <div className="hidden lg:flex space-x-8">
-          <a href="/" className="text-xl text-[#020043] font-medium">Home</a>
-          <a href="/services" className="text-xl text-[#020043] font-medium">Services</a>
-          <a href="/blog" className="text-xl text-[#020043] font-medium">Blog</a>
-          <a href="/about" className="text-xl text-[#020043] font-medium">About Us</a>
+          <a href="/" className="text-xl hover:underline text-[#020043] font-medium">Home</a>
+          <a href="/services" className="text-xl hover:underline text-[#020043] font-medium">Services</a>
+          <a href="/blog" className="text-xl hover:underline text-[#020043] font-medium">Blog</a>
+          <a href="/about" className="text-xl hover:underline text-[#020043] font-medium">About Us</a>
         </div>
 
         {/*  Button */}
         <div className="hidden lg:block">
-          <button className="px-4 text-[#020043] text-xl font-medium py-2 rounded-xl border border-[#343268]">
+          <button className="px-4 transition-all duration-700 hover:bg-[#FFC637] hover:text-white hover:border-white  text-[#020043] text-xl font-medium py-2 rounded-xl border border-[#343268]">
             Appointment &#x2197;
           </button>
         </div>
@@ -63,7 +63,7 @@ const Nav = () => {
             <li><a href="/blog" className="block px-3 py-2 rounded-md">Blog</a></li>
             <li><a href="/about" className="block px-3 py-2 rounded-md">About Us</a></li>
             <li>
-              <button className="w-full bg-white text-[#020043] text-xl font-medium py-2 rounded-xl border border-[#343268] mt-2">
+              <button className="w-full  bg-white text-[#020043] text-xl font-medium py-2 rounded-xl border border-[#343268] mt-2">
                 Appointment &#x2197;
               </button>
             </li>

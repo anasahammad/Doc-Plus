@@ -44,7 +44,7 @@ const cards = [
 const TestimonialSec = () => {
     return (
         <section className="my-12">
-            <button className="px-4 text-[#020043] text-xl font-medium py-2 rounded-full border border-[#343268]">
+            <button className="px-4 hover:bg-[#FFC637] transition-all duration-700 hover:text-white hover:border-white text-[#020043] text-xl font-medium py-2 rounded-full border border-[#343268]">
           Testimonial
         </button>
 

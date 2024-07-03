@@ -3,10 +3,10 @@ import logo from "../../assets/logo light.png"
 
 const Footer = () => {
     return (
-        <footer className="  bg-[#020043] text-white px-[166px] py-[120px]">
+        <footer className="  bg-[#020043] text-white px-[80px] lg:px-[166px] py-[60px] lg:py-[120px]">
              <img src={logo} alt="" />
 
-            <div className="grid grid-cols-4 mt-8">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-0 mt-8">
             <div className="space-y-[33px]">
                
 
@@ -18,7 +18,7 @@ const Footer = () => {
 (Available : 10:00am to 07:00pm)</p>
            </div>
 
-           <div className="ml-[130px]">
+           <div className="lg:ml-[130px]">
                <ul className="leading-[30px]">
                    <li>Home</li>
                    <li>About</li>
@@ -26,7 +26,7 @@ const Footer = () => {
                    <li>Terms And Condition</li>
                </ul>
            </div>
-           <div className="ml-[140px]">
+           <div className="lg:ml-[140px]">
                <ul className="leading-[30px]">
                    <li>Services</li>
                    <li> Scheduling</li>
@@ -35,7 +35,7 @@ const Footer = () => {
                </ul>
            </div>
 
-           <div className="ml-[100px] leading-[30px] ">
+           <div className="lg:ml-[100px] leading-[30px] ">
                <h6>Follow Us</h6>
 
                <div className="flex gap-2 ">
