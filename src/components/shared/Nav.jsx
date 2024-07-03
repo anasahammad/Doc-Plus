@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Nav.css"
+
 
 import logo from "../../assets/logo dark.png"
 
@@ -11,7 +11,7 @@ const Nav = () => {
   };
 
     return (
-        <nav className="max-w-7xl mx-auto  py-6">
+        <nav className="max-w-7xl mx-auto p-6">
       <div className=" flex justify-between items-center">
         {/* Mobile Menu */}
         <div className="flex items-center lg:hidden">
