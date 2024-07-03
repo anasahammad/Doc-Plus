@@ -2,7 +2,7 @@ import bannerImg from "../../assets/voucher.png"
 import logo from "../../assets/logo light.png"
 const VoucherCard = () => {
     return (
-        <div>
+        <div className="my-12 ">
 
 <div 
   className="relative bg-center grid w-full place-items-center bg-cover min-h-[470px] rounded-[48px] "

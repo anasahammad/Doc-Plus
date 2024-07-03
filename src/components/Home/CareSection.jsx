@@ -9,9 +9,9 @@ const CareSection = () => {
     return (
         <section className="my-10 ">
             
-            <div className="grid grid-cols-5 gap-5">
+            <div className="grid lg:grid-cols-5 gap-5">
                 {/* Left Div */}
-                <div className="w-[216px] h-[312px] bg-white pt-5 pl-5 pr-12 rounded-3xl">
+                <div className=" lg:w-[216px] h-[312px] bg-white pt-5 pl-5 pr-12 ml-12 lg:ml-0 rounded-3xl">
                     <div className="mb-[23px]">
                         <h1 className="text-[40px] font-semibold text-[#020043]">90%</h1>
                         <p className="leading-[21px]">Patient satisfaction rate, reflecting our commitment.</p>
@@ -25,9 +25,9 @@ const CareSection = () => {
 
                 {/* Middle Div */}
                 <div className="col-span-3">
-                    <h1 className="text-5xl text-center text-[#020043] font-semibold leading-[56px]">Comprehensive Care for Every Patient</h1>
+                    <h1 className="text-2xl lg:text-5xl text-center text-[#020043] font-semibold lg:leading-[56px]">Comprehensive Care for Every Patient</h1>
 
-                    <div className="grid grid-cols-3 gap-5">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
 
                         {/* card 1 */}
                         <div className="border border-[#02004333] bg-white/60 pt-5 pr-5  rounded-3xl ">
@@ -46,7 +46,7 @@ const CareSection = () => {
                         {/* card 2 */}
 
                       
-                        <div className="border ml-4 w-[216px]  h-[162px] mt-[49px] border-[#02004333] bg-white/60 p-5 rounded-3xl ">
+                        <div className="border  ml-4 w-[216px]  h-[162px] mt-[49px] border-[#02004333] bg-white/60 p-5 rounded-3xl ">
                         <div className=" mb-5">
                         <h1 className="text-[40px] flex gap-3 items-center font-semibold text-[#020043]">4.8 <span>
                             <img src={starIcon} alt="" />

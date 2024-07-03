@@ -7,7 +7,7 @@ const ServiceSection = () => {
     <section className="px-12">
 
         {/* top section */}
-      <div className="flex  my-32 justify-between items-center">
+      <div className="flex flex-col lg:flex-row  my-32 justify-between items-center">
 
         {/* Left Part */}
       <div className="w-[500px] h-[355px] space-y-4">

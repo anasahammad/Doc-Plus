@@ -1,16 +1,18 @@
 
 import './App.css'
+import Footer from './components/shared/Footer'
 import Nav from './components/shared/Nav'
-import Navbar from './components/shared/Navbar'
+
 import Home from './pages/Home/Home'
 
 function App() {
   return (
     <main>
-      {/* <Navbar/> */}
+     
 
       <Nav/>
       <Home/>
+      <Footer/>
     </main>
   )
 }
