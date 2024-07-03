@@ -4,6 +4,7 @@ import CareSection from "../../components/Home/CareSection";
 import FaqSection from "../../components/Home/FaqSection";
 import ServiceSection from "../../components/Home/ServiceSection";
 import TestimonialSec from "../../components/Home/TestimonialSec";
+import VoucherCard from "../../components/Home/VoucherCard";
 
 
 
@@ -17,6 +18,7 @@ const Home = () => {
             <ServiceSection/>
             <TestimonialSec/>
             <FaqSection/>
+            <VoucherCard/>
         </div>
     );
 };
