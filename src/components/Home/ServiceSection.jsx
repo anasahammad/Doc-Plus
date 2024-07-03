@@ -4,7 +4,7 @@ import femaleDoctor from "../../assets/female.png";
 
 const ServiceSection = () => {
   return (
-    <section className="">
+    <section className="px-12">
 
         {/* top section */}
       <div className="flex  my-32 justify-between items-center">
