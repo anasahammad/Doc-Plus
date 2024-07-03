@@ -11,7 +11,7 @@ import VoucherCard from "../../components/Home/VoucherCard";
 
 const Home = () => {
     return (
-        <div className="max-w-7xl mx-auto overflow-hidden">
+        <div className="max-w-7xl mx-auto ">
             <Banner/>
             <CareSection/>
             <AboutSection/>

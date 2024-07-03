@@ -54,7 +54,7 @@ const TestimonialSec = () => {
 
         {/* Testimonial Cards */}
 
-        <div className="grid grid-cols-3 gap-6 mt-[30px]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-[30px]">
         
         {
             cards.map((card, idx)=> (
@@ -86,6 +86,12 @@ const TestimonialSec = () => {
             ))
         }
             
+        </div>
+
+        <div className="flex justify-center items-center gap-3 my-10">
+            <div className="h-4 w-4 bg-gray-300 rounded-full"></div>
+            <div className="h-4 w-4 bg-[#FFC637] rounded-full"></div>
+            <div className="h-4 w-4 bg-gray-300 rounded-full"></div>
         </div>
         </section>
     );
