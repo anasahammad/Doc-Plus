@@ -6,7 +6,7 @@ import logo from "../../assets/logo dark.png"
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
+  const toggle = () => {
     setIsOpen(!isOpen);
   };
 
@@ -15,7 +15,7 @@ const Nav = () => {
       <div className=" flex justify-between items-center">
         {/* Mobile Menu */}
         <div className="flex items-center lg:hidden">
-          <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
+          <button onClick={toggle} className="text-gray-800 focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

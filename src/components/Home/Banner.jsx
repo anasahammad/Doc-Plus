@@ -7,8 +7,7 @@ const Banner = () => {
   style={{
     backgroundImage: `url('${bannerImg}')`, backgroundRepeat: "no-repeat" 
   }}>
-  {/* <div className="hero-overlay bg-[#020043
-47%]"></div> */}
+  
   
 </div>
     );
